@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Socket.IO',
+  title: 'Grit`s Blog',
   tagline: 'Bidirectional and low-latency communication for every platform',
   favicon: 'img/favicon.ico',
 
