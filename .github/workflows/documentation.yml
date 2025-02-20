@@ -11,6 +11,8 @@ jobs:
       uses: actions/checkout@master
       with:
         persist-credentials: false
+    - name: Install PNPM
+      run: npm install -g pnpm
     - name: Install and Build
       run: |
         pnpm install
