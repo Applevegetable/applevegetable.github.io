@@ -18,7 +18,7 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: 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
+        ACCESS_TOKEN: ${{ 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 }}
         BRANCH: main
         FOLDER: build
         BUILD_SCRIPT: pnpm install && pnpm run build
